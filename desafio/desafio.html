@@ -1,0 +1,68 @@
+<head>
+    <title>Cadastro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="./desafio.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="title">Faça seu cadastro</h1>
+
+    <div class="box">
+        <label class="label-field" for="name-field">Nome completo</label>
+        <input type="name" placeholder="Digite o seu nome completo" id="name-field">
+    </div>
+
+    <div class="box">
+        <label>Data de nascimento</label>
+        <input type="date">
+    </div>
+
+    <div class="country">
+        <label>País</label>
+        <select>
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Colômbia</option>
+            <option>Dinamarca</option>
+            <option>Estados Unidos</option>
+        </select>
+    </div>
+
+    <div class="gender">
+        <label>Gênero</label>
+        <input type="radio" name="input-gender" id="female-radio">
+        <label for="female-radio">Feminino</label>
+        <input type="radio" name="input-gender" id="male-radio">
+        <label for="male-radio">Masculino</label>
+        <input type="radio" name="input-gender" id="dont-declare-radio">
+        <label for="dont-declare-radio">Não declarar</label>
+    </div>
+
+    <div class="box">
+        <label for="email-field">E-mail</label>
+        <input type="email" placeholder="Digite o seu e-mail" id="email-field">
+    </div>
+
+    <div class="box">
+        <label for="password-field">Senha</label>
+        <input type="password" placeholder="Digite a sua senha" id="password-field">
+    </div>
+
+    <div class="box">
+        <label for="confirm-password-field">Confirmar Senha</label>
+        <input type="password" placeholder="Confirme a sua senha" id="confirm-password-field">
+    </div>
+
+    <input type="checkbox" id="checkbox-field">
+    <label for="checkbox-field">Aceito os <a href="termosecondicoes.html" target="_blank">termos e condições</a> e
+        concordo com as <a href="politicasdeprivacidade.html" target="_blank">políticas de privacidade</a> do Hall to
+        Code.</label>
+
+    <button>Cadastrar</button>
+    <p>Já tem uma conta no Hall To Code? <a href="inicio.html" target="_blank">Entre agora</a>.</p>
+
+</body>
